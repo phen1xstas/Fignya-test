@@ -1,0 +1,51 @@
+переменные:
+
+$myVar = 10;
+
+массивы:
+индексированный
+$arr = [1,2,3,4];
+$arr[0]
+ассоциативный
+$arr = [
+    'key1' => 'value1',
+    'key2' => 'value2',
+    'key3' => 'value3',
+    'key4' => 'value4',
+];
+$arr->key1;
+$arr['key1'];
+
+исходный синтаксис:
+$arr = array(...);
+
+конкатенация:
+$name = "Ivan";
+echo 'Greetings '.$name;
+или
+echo "Greetings ".$name;
+или
+echo "Greetings $name";
+
+
+циклы
+for($i=0; $i<count($array); $i++) {
+    ...
+}
+
+foreach($products as $product) {
+    ...
+}
+
+foreach($arr as $key=>$value) {
+    ...
+}
+
+условия
+
+elseif - пишется слитно
+if(...) {
+
+} elseif {
+
+}
