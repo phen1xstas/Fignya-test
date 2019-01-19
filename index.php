@@ -10,3 +10,7 @@ $arr = [
 foreach ($arr as $a => $b) {
     echo $a . ': ' . $b . '<br>';
 }
+
+foreach ($arr as $a => $b) {
+    echo $a . ': ' . $b . '<br>';
+}
