@@ -7,7 +7,7 @@ $arr = [
     'key4' => 'value4',
 ];
 
-echo 'Fignya'.'<br>';
+echo "'Fignya'! <br>";
 
 foreach ($arr as $a => $b) {
     echo $a . ': ' . $b . '<br>';
